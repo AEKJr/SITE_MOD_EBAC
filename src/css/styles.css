@@ -1,0 +1,236 @@
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    padding: 16px 0;
+    background-color: #052655;
+    text-shadow: 2px 2px 10px #fd06e0;
+}
+header h1,
+section h2,
+section h3 {
+    font-weight: normal;
+    color: #FF0074;
+}
+/* Navbar container */
+.navbar {
+    overflow: hidden;    
+}
+
+  /* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #FF0074;
+    text-align: center;
+    padding: 3px 6px;
+    text-decoration: none;
+}
+
+  /* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+    
+}
+
+  /* Dropdown button */
+.dropdown .dropbtn {    
+    font-size: 16px;
+    border: none;
+    outline:none;
+    color: #FF0074;
+    text-shadow: 3px 3px 10px #fd06e0;
+    padding: 3px 6px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus{
+    text-shadow: 2px 2px 3px #0cd5e3;
+    background-color: hsla(215, 100%, 21%, 0.507);
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+}
+
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;    
+    background-color: hsla(215, 100%, 21%, 0.507);
+    width: 108px;
+    border-radius: 0 0 8px 8px;
+    z-index: 1;    
+}
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: #FF0074;
+    padding: 3px 6px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: hsla(215, 100%, 30%, 0.507);
+}
+.show {
+    display: block;    
+}
+
+/* Show the dropdown menu on hover
+.dropdown:hover .dropdown-content {
+    display: block;
+}*/
+.btnx {
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: #FF0074;
+    box-shadow: 2px 2px 3px #fd06e0;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 7px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    transform: translate(0, -7px) rotate(45deg);
+}
+/*terminina item "X"*/
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+#nt img{
+    max-width: 120px;
+    margin-right: 10px;    
+}
+#ps img{
+    max-width: 120px;
+    margin-right: 10px;
+}
+#xb img{
+    max-width: 120px;
+    margin-right: 10px;
+}
+
+header .container,
+section .container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.brands-list img {    
+    margin-top: 10px;        
+}
+
+.brands-list .n img {
+    height: 64px;
+}
+.brands-list .p img {
+    height: 52px;
+}
+.brands-list .x img {
+    height: 42px;
+    margin-top: 8px;
+}
+.brands-list li {
+    display: inline;
+    margin: 8px;    
+}
+section .container {    
+    align-items: flex-start;    
+}
+section {
+    padding: 24px 0;
+    color: #DC00C4;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+section p {
+    margin-bottom: 8px;
+}
+.store-front {
+    margin-right: 32px;
+    max-width: 50%;
+}
+.social-links img {
+    height: 24px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+#contact .container {
+    display: block;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    resize: none;
+    background-color: #ecf0f1;
+}
+form textarea {
+    height: 120px;
+}
+section h3 {
+    margin-bottom: 16px;
+}
+form button {
+    background-color: #FF6C8F;
+    color: #960225;
+    border:groove 2px;
+    border-color: #BE4ED6;
+    border-radius: 7px;
+    cursor: pointer;    
+}
+form button:hover {
+    background-color: #FF003A;
+}
+input:focus, textarea:focus {
+    outline-color: #C00181;
+}
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+}
+body {
+    background-color: black;
+}

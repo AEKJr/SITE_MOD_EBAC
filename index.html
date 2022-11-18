@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJ - Games shop</title>
+    <link rel="icon" type="image/x-icon" href="./src/imgs/rog.icon.ico">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>KJ Dicas de games</h1>
+            <div class="navbar">
+                <a href="#about">Sobre o site</a>
+                <a href="#contact">Contato</a>                
+                <div class="dropdown" class="btnx" onclick="brx(this)">                    
+                    <button class="dropbtn" onclick="myFunction()">
+                        <i class="fa fa-caret-down"></i>
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#nt">Nintendo</a>
+                        <a href="#ps">Playstation</a>
+                        <a href="#xb">Xbox</a>
+                    </div>
+                </div>
+            </div>            
+        </div>        
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="store-front" src="./src/imgs/loja.gif" alt="Fachada da loja KJ Games Shop">
+            <div>
+                <h2>Sobre a Loja</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae tempora assumenda maiores impedit dignissimos natus suscipit, officia tempore, voluptas mollitia rem repellat minima dolorum commodi quasi corporis cumque eos deserunt.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae tempora assumenda maiores impedit dignissimos natus suscipit, officia tempore, voluptas mollitia rem repellat minima dolorum commodi quasi corporis cumque eos deserunt.
+                </p>
+                <ul class="brands-list">
+                    <li class="n">
+                        <img src="./src/imgs/nintendo-7785.png" alt="Logo Nintendo">
+                    </li>
+                    <li class="p">
+                        <img src="./src/imgs/ps.jpg" alt="Logo Playstation">
+                    </li>
+                    <li class="x">
+                        <img src="./src/imgs/xbox.jpg" alt="Logo Xbox">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="nt">
+        <div class="container">
+            <img src="./src/imgs/nintendo-7785.png" alt="Fachada da loja KJ Games Shop">
+            <div>
+                <h2>Dicas dos games de Nintendo</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae tempora assumenda maiores impedit dignissimos natus suscipit, officia tempore, voluptas mollitia rem repellat minima dolorum commodi quasi corporis cumque eos deserunt.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae tempora assumenda maiores impedit dignissimos natus suscipit, officia tempore, voluptas mollitia rem repellat minima dolorum commodi quasi corporis cumque eos deserunt.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="ps">
+        <div class="container">
+            <img src="./src/imgs/ps.jpg" alt="Fachada da loja KJ Games Shop">
+            <div>
+                <h2>Dicas dos games de Playstation</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae tempora assumenda maiores impedit dignissimos natus suscipit, officia tempore, voluptas mollitia rem repellat minima dolorum commodi quasi corporis cumque eos deserunt.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae tempora assumenda maiores impedit dignissimos natus suscipit, officia tempore, voluptas mollitia rem repellat minima dolorum commodi quasi corporis cumque eos deserunt.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="xb">
+        <div class="container">
+            <img src="./src/imgs/xbox.jpg" alt="Fachada da loja KJ Games Shop">
+            <div>
+                <h2>Dicas dos games de Xbox</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae tempora assumenda maiores impedit dignissimos natus suscipit, officia tempore, voluptas mollitia rem repellat minima dolorum commodi quasi corporis cumque eos deserunt.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae tempora assumenda maiores impedit dignissimos natus suscipit, officia tempore, voluptas mollitia rem repellat minima dolorum commodi quasi corporis cumque eos deserunt.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>
+                Contato
+            </h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" name="Nome" placeholder="Seu nome" required>
+                        <input type="email" name="Email" placeholder="Seu e-mail" required>
+                        <input type="tel" name="Telefone" placeholder="Seu telefone (opcional)">
+                        <textarea name="Texto" placeholder="Deixe sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="./src/imgs/instagram.png" alt="Nosso Intagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./src/imgs/facebook.png" alt="Nosso Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso canal no Youtube">
+                                <img src="./src/imgs/youtube.png" alt="Nosso Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>Rua javascript nº 124, vila HTML, Curitiba-PR</p>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; KJ Games Shop - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
+    <script>            
+        function brx(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+        </script>
+</body>
+</html>
